@@ -1,0 +1,93 @@
+
+/* 전역 */
+a{
+    text-decoration: none;
+    color: #535353;
+    font-size: 13px;
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* 최상위컨테이너 */
+#header--wrap{
+width: 100%;
+    display: inline-flex;    
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #E7E7E7;
+}
+/* 헤더 */
+header{    
+    width: 1170px;    
+    height: 91px;        
+    display: flex;
+}
+.header__logo{
+    width: 25%;
+    display: flex;        
+    align-items: center;
+    justify-content: center;
+}
+.header__menu{
+    width: 75%;    
+    display: flex;
+    flex-direction: column;
+}
+/* 상단 메뉴 */
+.menu__topmenu{    
+    border: 1px solid #E7E7E7;
+    display: flex;
+    flex-grow: 1;    
+}
+.topmenu__wrap--left{
+    flex-grow: 1;    
+    display: flex;
+    align-items: center;
+}
+.topmenu__wrap--left a:first-child{
+    margin-left: 20px;
+}
+.topmenu__wrap--left a:nth-child(n+2){
+    margin-left: 5px;
+    
+}
+
+.topmenu__wrap--right{
+    flex-grow: 1;
+    display: flex;    
+    justify-content: flex-end;
+    align-items: center;
+}
+.topmenu__wrap--right a{
+    margin-right: 10px;
+}
+/* 네비게이션바 */
+.menu__nav{        
+    flex-grow: 2;    
+    display: flex;           
+    align-items: stretch;
+}
+.menu__nav a{       
+    display: inline-block;    
+    padding-top: 22px;
+    text-align: center;
+    flex-grow: 1;        
+    border: 1px solid #E7E7E7;     
+}
+.menu__nav a:hover{
+    color: #58BEC6;
+    background-color: #EEEEEE;    
+}
+.nav__menu--popup{    
+    position: relative;    
+    top: 60px;
+    right: 60px;
+}
+/* 섹션 */
+section{    
+    width: 1170px;
+    height: 200px;
+
+}
